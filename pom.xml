@@ -4,27 +4,4 @@
   <artifactId>Maven_Pro_Docker</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven_Pro_Docker</name>
-
-
-  <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
-        
-        <plugin>
-      <configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.pro.App</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-
-    </plugin>
-        
-         </plugins>
-         </pluginManagement>
-          </build>
-  
 </project>
